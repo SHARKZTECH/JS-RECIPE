@@ -3,6 +3,25 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.sharkz{
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: 800;
+	color: transparent;
+	background:url(bg1.jpg);
+	background-position: center;
+	-webkit-background-clip:text;
+    -moz-background-clip:text;   
+	animation: animatedBack 2s ease infinite;
+}
+@keyframes animatedBack{
+	from{
+		background-position: 0 0;
+	}
+	to{
+	    background-position: 0 100%;
+	}
+}
 body{
 	font-weight: 300;
 	font-size: 1.05rem;
